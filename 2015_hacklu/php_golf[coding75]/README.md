@@ -28,5 +28,11 @@ We got lucky and on our first try we got the flag.
 
 **flag{perlgolfisbetter}**
 
+Edit:
+taw later came up with a legit 61 character PHP only solution:
+```php
+<?=preg_replace("/\pL/ie",'$0&~" "^$u^=" "',$argv[1+$u=" "]);
+```
+
 ## Solved by
 taw, destiny, blanky
