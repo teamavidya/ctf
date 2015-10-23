@@ -20,7 +20,7 @@ $_=lc"@ARGV";s/[a-z]/$u^=" ";$&^$u/ige;print
 Explanation:
 `$_=lc"@ARGV"` is just `$_ = lowercase("#{@ARGV}")`
 
-print without argument defaults to print($_)
+`print` without argument defaults to `print($_)`
 
 `s/[a-z]/$u^=" ";$&^$u/ige` is $_.gsub!(/[a-z]/)
 
