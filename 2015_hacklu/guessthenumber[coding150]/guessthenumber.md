@@ -49,8 +49,7 @@ nums.each do |num|
   connection.cmd("String" => num.to_s, "Match" => /Correct!/) { |c| print c }
 end
 ```
-
-![][guessthenumber_solved.png]
+![](guessthenumber_solved.png)
 
 Full code [here](guessthenumber.rb).
 
