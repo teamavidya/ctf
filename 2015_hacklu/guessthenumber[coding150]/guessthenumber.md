@@ -50,9 +50,9 @@ nums.each do |num|
 end
 ```
 
-![][guessthenumber.png]
+![][guessthenumber_solved.png]
 
-Full code [here](guessthenumber_solved.png).
+Full code [here](guessthenumber.rb).
 
 **flag{don't_use_LCGs_for_any_guessing_competition}**
 
