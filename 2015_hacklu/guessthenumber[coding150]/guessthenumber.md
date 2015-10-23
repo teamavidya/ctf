@@ -50,7 +50,7 @@ nums.each do |num|
 end
 ```
 
-![][guessthenumber]
+![][guessthenumber.png]
 
 Full code [here](guessthenumber_solved.png).
 
