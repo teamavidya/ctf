@@ -34,5 +34,11 @@ Explanation:
 
 The challenge creator had some interesting comments for us [here](https://github.com/teamavidya/ctf/commit/52f5789e743af94c147d4e5e0fd3796bc162872b#commitcomment-13953040)
 
+Bogbert commented that he had found a 34 character solution!!
+
+```perl
+print pop=~s/\pL/lc$&^($u^=$")/ger
+```
+
 ## Solved by
 taw

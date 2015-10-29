@@ -34,5 +34,10 @@ taw later came up with a legit 61 character PHP only solution:
 <?=preg_replace("/\pL/ie",'$0&~" "^$u^=" "',$argv[1+$u=" "]);
 ```
 
+The master solution of the challenge was 57 characters!
+```php
+<?=preg_filter("/\pL/e",'($0|" ")^chr($m^=32)',$argv[1]);
+```
+
 ## Solved by
 taw, destiny, blanky
